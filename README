@@ -1,0 +1,20 @@
+1.LAMBDA EXPRESSION SYNTAX :-
+
+    (Argument-list) -> {Body};
+
+    1.1 NO Parameter Syntax :  () -> {  //Body of no parameter lambda }
+    1.2 One Parameter Syntax :  (p1) -> { //Body of single parameter lambda }
+    1.3 Two Parameter Syntax :  (p1,p2) -> { // Body of double parameter lambda }
+
+2. FUNCTIONAL INTERFACE :-
+
+    * An Interface that contains exactly one abstract Method .
+    * It can have any number of Default and static method,But can only have one abstract Method
+    * SAM : Single Abstract Method Interface.
+    * It contains as many number of Object Class Method.
+    * Object Class : hashcode();  ,  ToString();  ,  equals(Objects obj);
+    * A Functional class can extends another interface only when it does not
+      have any abstract methods.
+
+    Please refer to link for predefined functional interfaces  : https://www.javatpoint.com/java-8-functional-interfaces
+
